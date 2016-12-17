@@ -1,17 +1,17 @@
 package com.thoughtworks.tw101.exercises.exercise3.main;
 
 public class OddSum {
-   private int sum = 0;
+    private int sum = 0;
 
-   public int of(int start, int end) {
-       int num = start;
+    public int of(int start, int end) {
+        int num = start;
 
-       for(int i = start; i <= end; i++){
-          if(num % 2 != 0){
-             sum += num;
-          }
-          num++;
-       }
-       return sum;
+        for (int i = start; i <= end; i++) {
+            if (num % 2 != 0) {
+                sum += num;
+            }
+            num++;
+        }
+        return sum;
     }
 }

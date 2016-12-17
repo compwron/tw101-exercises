@@ -1,11 +1,10 @@
-package com.thoughtworks.tw101.exercises.exercise3.test;
+package com.thoughtworks.tw101.exercises.exercise3.main;
 
-import com.thoughtworks.tw101.exercises.exercise3.main.OddSum;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-class OddSumTest {
+public class OddSumTest {
 
     @Test
     public void shouldDoSomething() {

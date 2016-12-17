@@ -7,8 +7,8 @@ public class Main {
         int num = 0;
         int sum = 0;
 
-        for(int i = 0; i <= 100; i++){
-            if(num % 2 != 0){
+        for (int i = 0; i <= 100; i++) {
+            if (num % 2 != 0) {
                 System.out.println(num);
                 sum += num;
             }
