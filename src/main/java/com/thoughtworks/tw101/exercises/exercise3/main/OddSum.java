@@ -1,4 +1,4 @@
-package com.thoughtworks.tw101.exercises.exercise3;
+package com.thoughtworks.tw101.exercises.exercise3.main;
 
 public class OddSum {
    private int sum = 0;
